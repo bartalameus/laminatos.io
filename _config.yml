@@ -1,0 +1,24 @@
+lang: ru-RU
+encoding: utf-8
+
+url: http://prog.msk.ru
+title: Московский клуб программистов
+
+
+permalink: pretty
+highlighter: rouge
+markdown: kramdown
+input: GFM
+logo_location: "/assets/logo.jpeg"
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+
+paginate: 10
+paginate_path: "results/:num/"
+
+exclude: ['README.md']
+
+sass:
+  style: compressed
